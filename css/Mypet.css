@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+
+
+body { /* start header*/
+    font-family: 'Kiwi Maru', serif;
+    background-color: #9c9b9b;
+    margin: 0;
+    padding: 0;
+}
+nav{
+   /* border: 1px solid white;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.logo {
+    /*border: 1px solid white;*/
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: 15px;
+}
+.menu {
+    /*border: 1px solid white;*/
+    display: flex;
+    list-style: nooe;
+    /*width: 500px;*/
+}
+li {
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.h1-title {
+    margin-left: 10px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+header{ 
+    background-color: #000000;
+}
+/* end header */
+
+
+/* start main-content*/
+.main-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.box{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 20px 0px;
+}
+
+.image {
+    width: 100%;
+
+}
+.button {
+    color: aliceblue;
+    background-color: #9c9b9b;
+    padding: 8px 24px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.text-parem {
+    font-weight: 200;
+}
+
+/* end main-content*/
+
+
+/* start footer */
+footer {
+    background-color: #000000;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+/*end footer*/
+

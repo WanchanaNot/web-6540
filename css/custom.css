@@ -17,4 +17,18 @@
         input{
             margin-top: 10px;
         }
+
+        .mybg {
+            background-color: rgb(97, 79, 216);
+        }
    
+        .my-circle {
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+        }
+
+        footer {
+            background-color: slateblue;
+        }

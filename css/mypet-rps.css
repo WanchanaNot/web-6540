@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+nav{
+    display: flex;
+    /*background-color: rgb(94, 71, 50);*/
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    color: rgb(233, 233, 233);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+/*-------------- rps menu ---------------*/
+@media screen and (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav ul  {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+ /*------------------ hero--------------------*/
+ .hero {
+    background-image: url("https://media.istockphoto.com/id/1441468330/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%AD%E0%B8%B5%E0%B9%81%E0%B8%A3%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%84%E0%B8%9B-buteo-buteo-%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%9A%E0%B8%B4%E0%B8%99-%E0%B8%AD%E0%B8%B5%E0%B9%81%E0%B8%A3%E0%B9%89%E0%B8%87%E0%B9%83%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%AD%E0%B8%B2%E0%B8%A8%E0%B8%B1%E0%B8%A2%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4-%E0%B8%99%E0%B8%81%E0%B9%80%E0%B8%AB%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%9A%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99.jpg?s=612x612&w=0&k=20&c=wjzlJpb4jJSizRYKaaT-wQylWm31R1RxmJ8gxfsEXWg=");
+
+    width: 100%;
+    height: 900px;
+
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }   
+
+ .text-hero {
+    color: rgb(255, 254, 254);
+    text-align: center;
+
+    font-size: 70px;
+
+ }
+
+
+/*---------------mypet-content*---------------------*/
+
+.mypet-content {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(3,1fr);
+    max-width: 95%;
+    margin: auto;
+}
+
+.box {
+    /*background-color:rgb(94, 71, 50) ;*/
+    margin: 30px 10px;
+    /*color: rgb(223, 223, 223);*/
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+    
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.text-content {
+    padding: 10px;
+}
+
+
+/*-------------- rps Pet-Content ---------------*/
+@media screen and (max-width: 768px) {
+    .mypet-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+        max-width: 95%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mypet-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+        max-width: 95%;
+        margin: auto;
+    }
+}
+
+/*-------------------Footer---------------------*/
+
+
+footer {
+    background-color: #217c19;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
